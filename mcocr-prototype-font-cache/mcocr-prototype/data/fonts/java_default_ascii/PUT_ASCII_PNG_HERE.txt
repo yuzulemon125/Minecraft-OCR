@@ -1,0 +1,12 @@
+Place the font atlas here with this filename:
+
+    ascii.png
+
+Default expected layout:
+- 16 x 16 cells
+- 8 x 8 pixels per cell
+- cell 0 maps to code point 0
+- printable ASCII range 32-126 is loaded
+
+If your atlas differs, edit:
+    profiles/java_default_ascii.json

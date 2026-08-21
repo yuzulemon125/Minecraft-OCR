@@ -1,0 +1,5 @@
+Run from the project root after placing ascii.png:
+
+    python tools/build_font_data.py
+
+This creates java_default_ascii.npz in this directory.

@@ -1,0 +1,28 @@
+{
+  "name": "Minecraft Java default ASCII",
+  "atlas": {
+    "path": "../data/fonts/java_default_ascii/ascii.png",
+    "columns": 16,
+    "rows": 16,
+    "cell_width": 8,
+    "cell_height": 8,
+    "origin_x": 0,
+    "origin_y": 0,
+    "mask_mode": "auto",
+    "threshold": 128
+  },
+  "mapping": {
+    "first_codepoint": 0,
+    "include": [
+      32,
+      126
+    ],
+    "exclude": []
+  },
+  "advances": {
+    "mode": "ink_right_plus_one",
+    "default": 8,
+    "space": 4,
+    "overrides": {}
+  }
+}

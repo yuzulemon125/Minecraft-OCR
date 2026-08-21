@@ -1,0 +1,24 @@
+{
+  "source_profile": "profiles/java_default_ascii.json",
+  "font_data": "data/compiled/java_default_ascii.npz",
+  "gui_scale": 3,
+  "binarization": {
+    "mode": "auto",
+    "colors": [],
+    "color_tolerance": 12,
+    "luma_threshold": null,
+    "max_auto_colors": 8
+  },
+  "recognition": {
+    "block_occupancy_threshold": 0.45,
+    "line_row_gap": 1,
+    "vertical_search": 8,
+    "missing_pixel_weight": 1.25,
+    "extra_pixel_weight": 1.0,
+    "blank_skip_cost": 0.08,
+    "ink_skip_cost": 1.8,
+    "max_cost_per_glyph": 1.1,
+    "beam_width": 20,
+    "minimum_characters": 1
+  }
+}

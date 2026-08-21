@@ -1,0 +1,4 @@
+Place original-size PNG screenshots or cropped text images in this directory.
+Example command:
+
+    python main.py samples/input.png --gui-scale 3 --verbose
